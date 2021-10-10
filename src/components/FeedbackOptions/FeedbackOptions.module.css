@@ -1,0 +1,21 @@
+.button {
+  cursor: pointer;
+  border: 1px solid skyblue;
+  border-radius: 8px;
+  padding: 5px;
+  min-width: 100px;
+  background-color: cadetblue;
+  color: rgb(217, 220, 233);
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:active {
+  background-color: rgb(105, 132, 252);
+}
+
+.container {
+  margin: 20px 0;
+}
